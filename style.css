@@ -197,5 +197,7 @@ h1{
 
     h1{
         font-size: 0.9rem;
+        line-height: 30px;
+        letter-spacing: 8px;
     }
 }
