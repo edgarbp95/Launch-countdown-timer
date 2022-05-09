@@ -1,9 +1,5 @@
 const divCountdown = document.querySelector(".countdown");
 
-let timeNow = new Date("5/10/2022");
-
-console.log(timeNow)
-
 const getTime = dateEnd => {
     let now = new Date(),
         time = (new Date(dateEnd) - now + 1000) / 1000,
@@ -105,4 +101,4 @@ const countDown = (dateEnd,div)=>{
  
 }
 
-countDown("5/10/2022",divCountdown)
+countDown("7/23/2022",divCountdown)
